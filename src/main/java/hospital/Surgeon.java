@@ -14,4 +14,13 @@ public class Surgeon extends Doctor {
         return 1000000;
     }
 
+    @Override
+    public String toString() {
+        return "Surgeon{" +
+                "isOperating=" + isOperating +
+                ", employeeNumber='" + employeeNumber + '\'' +
+                ", name='" + name + '\'' +
+                '}';
+    }
+
 }

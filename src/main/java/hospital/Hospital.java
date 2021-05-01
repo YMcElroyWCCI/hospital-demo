@@ -41,4 +41,5 @@ public class Hospital {
     public Collection<Patient> getAllPatients() {
         return patientList.values();
     }
+
 }

@@ -13,4 +13,13 @@ public class Janitor extends Administrator {
     public int calculatePay() {
         return 50000;
     }
+
+    @Override
+    public String toString() {
+        return "Janitor{" +
+                "isCleaning=" + isCleaning +
+                ", employeeNumber='" + employeeNumber + '\'' +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

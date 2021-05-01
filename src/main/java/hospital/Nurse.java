@@ -22,4 +22,13 @@ public class Nurse extends HospitalEmployee implements MedicalDuties {
     public int calculatePay() {
         return 80000;
     }
+
+    @Override
+    public String toString() {
+        return "Nurse{" +
+                "numPatients=" + numPatients +
+                ", employeeNumber='" + employeeNumber + '\'' +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
